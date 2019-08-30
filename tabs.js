@@ -17,6 +17,7 @@ const handleTabClick = (e) => {
   removeSelectedClass('page')
 
   document.getElementById(pageToSelect).classList.add('selected')
+  document.getElementById(clickedTabId).classList.add('selected')
 }
 
 // Adding event lisenter to tabs
