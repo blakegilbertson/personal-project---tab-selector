@@ -1,11 +1,8 @@
-.tabs div {
-  display: inline-block
-}
+.tab {display: inline-block}
 
-.page {
-  display: none
-}
+.tab.selected {color: green}
 
-.selected {
-  display: block;
-}
+
+.page {display: none}
+
+.page.selected {display: block;}
