@@ -1,0 +1,11 @@
+.tabs div {
+  display: inline-block
+}
+
+.page {
+  display: none
+}
+
+.selected {
+  display: block;
+}
