@@ -1,21 +1,25 @@
 body {background: #F5F5F5}
 
 .tab {
-  background: #999;
-  color: blue;
-  display: inline-block;
+  background: #E3E8EC;
+  color: #2F4964;
   padding: 10px 25px;
+}
+
+@media only screen and (min-width: 425px) {
+  .tab {display: inline-block}
 }
 
 .tab.selected {
   background: #FFF;
-  border-top: 2px solid green;
-  color: red;
+  border-top: 2px solid #15A1A2;
+  color: #2F4964;
 }
 
 
 .page {
   background: #FFF;
+  color: #2F4964;
   display: none;
   padding: 25px;
 }
