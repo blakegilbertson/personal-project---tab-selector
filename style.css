@@ -1,8 +1,25 @@
-.tab {display: inline-block}
+body {background: #F5F5F5}
 
-.tab.selected {color: green}
+.tab {
+  background: #999;
+  color: blue;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.tab.selected {
+  background: #FFF;
+  border-top: 2px solid green;
+  color: red;
+}
 
 
-.page {display: none}
+.page {
+  background: #FFF;
+  display: none;
+  padding: 25px;
+}
 
 .page.selected {display: block;}
+
+.page h2 {margin-top: 0;}
