@@ -1,3 +1,5 @@
+Note: The majority of the files were provided. My work is contained in tabs.js
+
 # Tab interview task
 
 ## Intro
